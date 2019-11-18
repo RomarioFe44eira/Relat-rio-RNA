@@ -71,7 +71,7 @@ Após a compactação da entrada, o \textit{decoder} tenta reconstruir por uma f
 
 \section{PixelCNN}
 
-O PixelCNN é um modelo Autoregressor Generativo é utilizado depois d  que utiliza a imagem como entrada, e a saída uma distribuição de sub-pixels para cada pixel.
+O PixelCNN é um modelo Autoregressor Generativo é utilizado depois do VQ-VAE para   que utiliza a imagem como entrada, e a saída uma distribuição de sub-pixels para cada pixel.
 
 \begin{equation}
      L(x,D(e)) = ||x - D(e)||_{2}^{2} + ||sg[E(x)] - e||_{2}^{2} + \beta||sg[e] - E(x)||_{2}^{2} 
